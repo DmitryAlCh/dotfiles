@@ -28,3 +28,12 @@ vim.opt.colorcolumn = '79'
 vim.opt.completeopt={'menuone', 'noinsert', 'noselect' }
 --vim.opt.shortmess+=c
 
+vim.diagnostic.config({
+  virtual_text = false,
+  signs = true,
+  underline = true,
+  update_in_insert = false,
+  severity_sort = false,
+})
+vim.o.updatetime = 250
+vim.cmd [[autocmd CursorHold,CursorHoldI * lua vim.diagnostic.open_float(nil, {focus=false})]]
