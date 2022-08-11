@@ -1,6 +1,5 @@
 local Plug = vim.fn['plug#']
 vim.call('plug#begin', '~/.config/nvim/autoload/plugged')
-	Plug 'sheerun/vim-polyglot'
 	Plug 'scrooloose/NERDTree'
 	Plug 'jiangmiao/auto-pairs'
 	Plug 'neovim/nvim-lspconfig'
@@ -13,4 +12,5 @@ vim.call('plug#begin', '~/.config/nvim/autoload/plugged')
 	Plug 'hrsh7th/nvim-cmp'
 	Plug 'L3MON4D3/LuaSnip'
 	Plug 'saadparwaiz1/cmp_luasnip'
+	Plug 'nvim-treesitter/nvim-treesitter'
 vim.call('plug#end')
