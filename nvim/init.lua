@@ -4,4 +4,5 @@ require 'lsp_config'
 require 'settings'
 require 'maps'
 require 'color'
+require 'treesitter'
 
