@@ -1,4 +1,8 @@
-theme = "gruvbox_light"
+#theme = "gruvbox"
+#theme = "gruvbox_light"
+#theme = "solarized_dark"
+#theme = "hivacruz"
+theme = "everforest_light"
 
 [editor]
 true-color=true
@@ -13,3 +17,8 @@ select = "underline"
 
 [editor.file-picker]
 hidden = false
+
+#[languages]
+#name = "go"
+#auto-format = true
+#formatter = { command = "goimports"}
